@@ -1,0 +1,27 @@
+
+.menu{
+    text-align: left;
+    position: fixed;
+}
+.title{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+    font-size: 18px;
+    padding-top:20px;
+  }
+  
+  li a:hover:not(.active) {
+    text-decoration: none;
+    color: black;
+  }
